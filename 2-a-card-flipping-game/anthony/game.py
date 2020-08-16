@@ -11,12 +11,6 @@ class Game:
                 return i
 
     def take(self, index):
-        if index < 0 or index >= len(self.state):
-            return
-
-        if self.state[index] is "." or self.state[index] is "0":
-            return
-
         self.state[index] = "."
         self.flip(index + 1)
         self.flip(index - 1)
