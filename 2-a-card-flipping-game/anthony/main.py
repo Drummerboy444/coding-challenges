@@ -1,26 +1,21 @@
-from game import Game
+from solve import solve
 
 
-# game = Game("101")
-# print(game.successful())
-# print(game.stuck())
-# game.print()
-# game.take(0)
-# game.print()
-# game.take(1)
-# game.print()
-# print(game.successful())
-# print(game.stuck())
+# Sample inputs
+print("Sample inputs:")
+solve("0100110")
+solve("01001100111")
+solve("100001100101000")
+print()
 
+# Challenge inputs
+print("Challenge inputs:")
+solve("0100110")
+solve("001011011101001001000")
+solve("1010010101001011011001011101111")
+solve("1101110110000001010111011100110")
+print()
 
-game = Game("100")
-game.print()
-game.take(0)
-game.take(1)
-game.take(2)
-game.print()
-print(game.stuck())
-print(game.successful())
-
-
-
+# Bonus input
+print("Bonus input")
+solve("010111111111100100101000100110111000101111001001011011000011000")
