@@ -2,7 +2,7 @@
 
 Let `C1, C1, ..., CN` be the cards in a game of size `N`, where for all `i < N`, `Ci` is in `{ 0, 1 }`.
 
-Then for all `N > 0`, the game is solvable if and only if `|{ Ci | 0 <= i <= N }|` is odd.
+Then for all `N > 0`, the game is solvable if and only if `|{ Ci | Ci = 1 }|` is odd.
 
 # Proof
 
