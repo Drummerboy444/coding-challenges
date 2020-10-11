@@ -1,4 +1,4 @@
-# 1 - A Card Flipping Game
+# 2 - A Card Flipping Game
 
 Language: Python3
 
